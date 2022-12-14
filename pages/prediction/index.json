@@ -1,0 +1,18 @@
+{
+  "navigationBarTitleText": "康复监测",
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#E4FFFA",
+  "usingComponents": {
+    "u-form": "/node-modules/uview-ui/components/u-form/u-form",
+    "u-form-item": "/node-modules/uview-ui/components/u-form-item/u-form-item",
+    "u-input": "/node-modules/uview-ui/components/u-input/u-input",
+    "u-select": "/node-modules/uview-ui/components/u-select/u-select",
+    "u-line": "/node-modules/uview-ui/components/u-line/u-line",
+    "u-picker": "/node-modules/uview-ui/components/u-picker/u-picker",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "u-modal": "/node-modules/uview-ui/components/u-modal/u-modal",
+    "u-checkbox-group": "/node-modules/uview-ui/components/u-checkbox-group/u-checkbox-group",
+    "u-checkbox": "/node-modules/uview-ui/components/u-checkbox/u-checkbox",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button"
+  }
+}

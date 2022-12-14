@@ -1,0 +1,14 @@
+.echart_panel1 {
+    width: 750rpx;
+    height: 600rpx;
+    /* position:fixed;  */
+    top:0; 
+  }
+  .echart_panel2 {
+    width: 750rpx;
+    height: 600rpx;
+    /* position:fixed;  */
+    bottom:0; 
+  }
+  
+  

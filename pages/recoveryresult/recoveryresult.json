@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "康复日程",
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#E4FFFA",
+  "usingComponents": {
+    "ec-canvas": "../../ec-canvas/ec-canvas"
+  }
+}

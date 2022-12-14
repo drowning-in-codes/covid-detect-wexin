@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我的页面",
+  "navigationBarBackgroundColor": "#E4FFFA",
+  "usingComponents": {
+    "uni-collapse": "/uni_modules/uni-collapse/components/uni-collapse/uni-collapse",
+    "uni-collapse-item": "/uni_modules/uni-collapse/components/uni-collapse-item/uni-collapse-item"
+  }
+}

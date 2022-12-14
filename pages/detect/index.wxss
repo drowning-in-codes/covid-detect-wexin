@@ -1,0 +1,274 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+@font-face {
+  font-family: 'iconfont';  /* Project id 3820596 */
+  src: url('https://at.alicdn.com/t/c/font_3820596_xzd20bhzu1b.woff2?t=1670748806376') format('woff2'),
+       url('https://at.alicdn.com/t/c/font_3820596_xzd20bhzu1b.woff?t=1670748806376') format('woff'),
+       url('https://at.alicdn.com/t/c/font_3820596_xzd20bhzu1b.ttf?t=1670748806376') format('truetype');
+}
+.iconfont.data-v-45e3c05f {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-youjiantou.data-v-45e3c05f:before {
+  content: "\e600";
+}
+.icon-diliweizhi1.data-v-45e3c05f:before {
+  content: "\e607";
+}
+.covid-heal-add.data-v-45e3c05f, .covid-confirm-add.data-v-45e3c05f {
+  text-align: center;
+}
+.tmp-img-r.data-v-45e3c05f {
+  width: 120rpx;
+  height: 120rpx;
+  margin-left: 10rpx;
+  margin-bottom: 12rpx;
+}
+.bottom-right.data-v-45e3c05f {
+  display: flex;
+  align-items: flex-end;
+}
+.right-icon.data-v-45e3c05f {
+  margin-left: 10rpx;
+}
+.geo-form-item.data-v-45e3c05f {
+  padding: 10rpx;
+}
+.geo-form-item.data-v-45e3c05f .u-form-item {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.geo-form-item.data-v-45e3c05f {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.tip-img-box.data-v-45e3c05f {
+  display: flex;
+  align-items: center;
+}
+.geo-wrapper-mini.data-v-45e3c05f {
+  margin-top: 10rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rpx;
+}
+.covid-confirm.data-v-45e3c05f,
+.covid-heal.data-v-45e3c05f {
+  border-radius: 16rpx;
+  border: 3rpx solid #bbbbbb;
+  padding: 12rpx;
+}
+.covid-gap.data-v-45e3c05f {
+  margin-bottom: 8rpx;
+}
+uni-modal .uni-modal__bd.data-v-45e3c05f {
+  white-space: pre-wrap;
+}
+.miniimg.data-v-45e3c05f {
+  margin-left: 7rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+.geo-bottom-bottom.data-v-45e3c05f {
+  margin-bottom: 10rpx;
+}
+.geo-bottom.data-v-45e3c05f {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.add-confirm.data-v-45e3c05f {
+  color: #a31d13;
+}
+.add-heal.data-v-45e3c05f {
+  color: #34aa70;
+}
+.covid-bold.data-v-45e3c05f {
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+}
+.boldred.data-v-45e3c05f {
+  text-align: center;
+  color: #a31d13;
+  font-size: 40rpx;
+}
+.green.data-v-45e3c05f {
+  text-align: center;
+  color: #34aa70;
+  font-size: 40rpx;
+}
+.resizeimg.data-v-45e3c05f {
+  width: 80rpx;
+  height: 80rpx;
+  margin-left: 10rpx;
+}
+.form-item.data-v-45e3c05f {
+  margin-left: 22rpx;
+  margin-right: 15rpx;
+  margin-bottom: 10rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.block.data-v-45e3c05f {
+  display: block;
+}
+.geo-wrappr.data-v-45e3c05f {
+  margin-top: 10rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25rpx;
+}
+.wrapper.data-v-45e3c05f {
+  display: flex;
+  align-items: center;
+}
+.red.data-v-45e3c05f {
+  color: red;
+  font-weight: 700;
+  margin-left: 5rpx;
+}
+.query.data-v-45e3c05f {
+  font-weight: 700;
+  font-size: 35rpx;
+}
+.title.data-v-45e3c05f {
+  margin-bottom: 10rpx;
+  font-weight: 700;
+}
+.basic-info.data-v-45e3c05f {
+  margin-bottom: 25rpx;
+}
+.tmptitle.data-v-45e3c05f {
+  color: #bd3124;
+  font-weight: 700;
+  margin-bottom: 20rpx;
+}
+.center.data-v-45e3c05f {
+  margin-top: 15rpx;
+  text-align: center;
+}
+.basic-info-bottom.data-v-45e3c05f {
+  background-color: white;
+  display: flex;
+  gap: 15rpx;
+  align-items: center;
+  margin-top: 35rpx;
+  box-shadow: 0px 2px 8px 0px #888888;
+  padding: 15rpx;
+  border-radius: 15rpx;
+}
+.geo-top.data-v-45e3c05f {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15rpx;
+}
+.geo-top-wrapper.data-v-45e3c05f {
+  display: flex;
+  justify-content: center;
+  gap: 40rpx;
+  align-items: center;
+  padding-bottom: 10rpx;
+  margin-top: 5rpx;
+}
+.tmpimg.data-v-45e3c05f {
+  width: 230rpx;
+  height: 250rpx;
+}
+.geoimg.data-v-45e3c05f {
+  width: 60rpx;
+  height: 60rpx;
+}
+.detect-container.data-v-45e3c05f .input-area {
+  background-color: white;
+}
+.basic-info-top.data-v-45e3c05f {
+  display: flex;
+  justify-content: space-between;
+}
+.basic-info-right.data-v-45e3c05f {
+  background-color: white;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 2px 8px 0px #888888;
+  padding: 15rpx;
+  border-radius: 15rpx;
+}
+.basic-info-left.data-v-45e3c05f {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.uni-column + .uni-column.data-v-45e3c05f {
+  margin-top: 20rpx;
+}
+.ext-info.data-v-45e3c05f {
+  background-color: white;
+  padding: 20rpx;
+  padding-left: 50rpx;
+  border-radius: 15rpx;
+  box-shadow: 0px 2px 8px 0px #888888;
+  margin-top: 30rpx;
+  margin-bottom: 40rpx;
+}
+.uni-btn.data-v-45e3c05f {
+  margin: 0 auto;
+  margin-top: 30rpx;
+  width: 100%;
+  height: 100%;
+}
+.uni-input.data-v-45e3c05f {
+  background-color: white;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  min-height: 60rpx;
+  background-color: #ededed;
+}
+.detect-form.data-v-45e3c05f {
+  width: 90%;
+  margin: 10rpx auto;
+  padding: 10rpx;
+  min-height: 80vh;
+}
+.detect-container.data-v-45e3c05f {
+  background-color: #E9F8F5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+

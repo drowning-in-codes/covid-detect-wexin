@@ -1,0 +1,6 @@
+<view class="echart_panel1">
+ <ec-canvas id="mychart2" canvas-id="mychart-line2" ec="{{ ec1 }}"></ec-canvas>
+</view>
+<view class="echart_panel2">
+    <ec-canvas id="mychart1" canvas-id="mychart-line1" ec="{{ ec2 }}"></ec-canvas>
+ </view>
